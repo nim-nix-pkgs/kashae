@@ -11,6 +11,7 @@
   inputs.src-kashae-master.ref   = "refs/heads/master";
   inputs.src-kashae-master.owner = "beef331";
   inputs.src-kashae-master.repo  = "kashae";
+  inputs.src-kashae-master.dir   = "";
   inputs.src-kashae-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
